@@ -2,7 +2,21 @@
 	padding: 0;
 	margin: 0;
 }
+.bodycontainer {
+	width: 100%;
+	height: 100%;
+	background-color: green;
+}
 .mainh1 {
-	margin-right: auto;
-	margin-left: auto;
+	text-align: center;
+}
+.mapcontainer {
+	height: 100%;
+	width: 50%;
+	background-color: red;
+}
+.mapimage {
+	display: inline;
+	height: 100px;
+	width: 100px;
 }
