@@ -3,8 +3,8 @@
 	margin: 0;
 }
 h1 {
-	display: hidden;
+	display: none;
 }
 #title1 {
-	display: shown;
+	display: inline;
 }
