@@ -7,16 +7,27 @@
 	height: 100%;
 	background-color: green;
 }
-.mainh1 {
-	text-align: center;
+.menubar {
+	height: 8%;
+	background-color: gray;
 }
 .mapcontainer {
-	height: 100%;
-	width: 50%;
-	background-color: red;
+	height: 92%;
+	width:35%;
+	overflow: hidden;
+	background-color: white;
 }
-.mapimage {
-	display: inline;
-	height: 100px;
-	width: 100px;
+.gtavmap {
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	filter: drop-shadow(0 0 0.75rem black);
+}
+.cokelockup {
+	background-color: purple;
+}
+tr {
+	text-align: center;
+	line-height: 50%;
 }
