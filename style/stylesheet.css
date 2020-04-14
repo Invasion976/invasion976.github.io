@@ -2,60 +2,49 @@
 	padding: 0;
 	margin: 0;
 }
-.bodycontainer {
-	width: 100%;
-	height: 100%;
-	background-color: white;
-	border-collapse: collapse;
-	table-layout: fixed;
+.navbar {
+	height: 5%;
+	background-color: green;
 }
-.menubar {
-	height: 8%;
-	background-color: gray;
-}
-.mapcontainer {
-	height: 92%;
-	width:35%;
-	overflow: hidden;
-	background-color: white;
-}
-.gtavmap {
-	display: block;
-	width: 85%;
-	max-width:85%;
-	margin-right: auto;
-	margin-left: auto;
-	filter: drop-shadow(0 0 0.75rem black);
-}
-
-.cokelockup {
-	background-color: purple;
-}
-
-.bodycontainer p {
-	width: 65%;
-	height: 3em;
-	line-height: 3em;
-	background-color: #c4c4c4;
-	color: white;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 1px;
-}
-.ieinner {
-	opacity: 50%;
-	width: 90%;
+.gridcontain {
 	height: 90%;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+	background-color: #2196F3;
+	overflow: hidden;
+}
+.mapcontain{
+	grid-row: 1 / span 3;
+	grid-column: 1 / span 2;
+	background-color: red;
+}
+#gtavmap {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2.5%;
+}
+.griditem {
+	background-color: rgba(255,255,255,0.8);
+	font-size: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.title {
+	height: 5vh;
+	width: 12.5vw;
+	line-height: 5vh;
+	background-color: gray;
+	vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: gray;
-	filter: drop-shadow(0 0 0.75rem gray);
-	border-radius: 5%;
-	transition: 1s;
+	margin-top: calc(100% / 3);
 }
-.ieinner:hover {
-	cursor: pointer;
-	filter: drop-shadow(0 0 0.75rem black);
+
+
+
+.foots{
+	height: 5%;
+	background-color: purple;
 }
